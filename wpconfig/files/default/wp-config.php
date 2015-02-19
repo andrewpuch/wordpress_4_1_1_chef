@@ -13,19 +13,22 @@
  *
  * @package WordPress
  */
+ 
+define('WP_HOME','http://wordpressawstutorialseries-1173690347.us-east-1.elb.amazonaws.com');
+define('WP_SITEURL','http://wordpressawstutorialseries-1173690347.us-east-1.elb.amazonaws.com');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'wordpress');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'wordpress.cakzhkocli9e.us-east-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
